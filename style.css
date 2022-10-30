@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    background-color: #060100;    
+}
+
+.restaurant {
+    padding: 2em;
+    background-color:#5a1a1a;
+    border: none;
+    text-align: center;
+    width: 40%;
+    margin: 2em auto;
+}
+
+.boxes {
+    border: none;
+    border-bottom: solid 2px #FFF0D6;
+    background-color: transparent;
+    display: block;
+    margin: 2em auto;
+    color: #FFF0D6;
+    width: 35%;
+    padding:6px;
+    box-sizing: border-box;
+    transition: background .3s;
+}
+
+.boxes:hover {
+    background-color: #FF893D;
+}
+
+.boxes::placeholder {
+    color: #FFF0D6;
+    font-size: large;
+    transition: color .3s;
+}
+
+.boxes:focus {
+    background-color: transparent;
+    
+}
+
+select {
+    color: #FF893D;
+    font-size: large;
+    
+}
+
+select option {
+    background-color: #FFA860;
+}
+
+#send {
+    margin: 1em auto;
+    padding: 6px;
+    background-color:#FF893D;
+    color:#FFF0D6;
+    border: 1px solid #060100;
+    width: 30%;
+    font-size:large;
+}
+
+#send:hover {
+    background-color:#FFA860;
+    color: white;
+}
+
+.container-restaurant {
+    display: block;
+}
+
+.title {
+    color: #FFA860;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #060100;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+    
+}
+

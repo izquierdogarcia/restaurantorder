@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    
+    <form class="restaurant" autocomplete="off">
+        <h2 class="title">Hi! Where do you want to eat?</h2>
+        <div class="container-restaurant">
+            <input type="text" id="name" class="boxes" required minlengh="3" maxlengh="40" placeholder="Name">
+            <input type="email" id="email" class="boxes" minlengh="5" maxlengh="40" placeholder="Email">
+            <input type="text" id="phone" class="boxes" required placeholder="Phone">
+            <select name="where" class="boxes">
+                <option value="takeaway">Take Away</option>
+                <option value="reservation">Make a reservation</option>
+            </select>
+            <input type="submit" id="send" value="Send">
+        </div>
+        <div class="result"></div>
+    </form>
+    <script src="javascript.js"></script>
+</body>
+</html>
